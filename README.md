@@ -10,7 +10,7 @@ Idea: [kleiram](https://github.com/kleiram/vagrant-symfony)
 - ubuntu/trusty64
 - PHP
 - PHP-FPM
-- nginx with templates for Symfony2 and Yii2
+- nginx with SF2 config
 - MySQL
   * Username: `root`
   * Password: empty
@@ -41,12 +41,12 @@ For example, if you need a memcached, you need to add it to playbook.yml
 Clone project into vagrant directory:
 
     $ cd your-project
-    $ git clone https://github.com/mb24dev/vagrant_ansible_enviroment.git vagrant
+    $ git clone https://github.com/mb24dev/symfony2-environment.git vagrant
 
 Or, if you're using Git already in your project, you can use it as a submodule:
 
     $ cd your-project
-    $ git submodule add https://github.com/mb24dev/vagrant_ansible_enviroment.git vagrant
+    $ git submodule add https://github.com/mb24dev/symfony2-environment.git vagrant
 
 After the project is added, you may configure the environment.
 Now you can run the Vagrant:
