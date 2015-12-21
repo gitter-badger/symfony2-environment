@@ -51,8 +51,8 @@
         - { name: sqlite, package: php5-sqlite }
         - { name: apc, package: php-apc }
         - { name: intl, package: php5-intl }
+        - { name: redis, package: php5-redis }
         #- { name: memcached, package: php5-memcached }
-        #- { name: redis, package: php5-redis }
       #
       # PHP extension
       #
@@ -66,4 +66,4 @@
     - composer
     - mysql
     - phpunit
-    #- redis
+    - redis
