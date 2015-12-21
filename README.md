@@ -8,12 +8,16 @@ Idea: [kleiram](https://github.com/kleiram/vagrant-symfony)
 ## What's in the box?
 
 - ubuntu/trusty64
+- composer
 - PHP
 - PHP-FPM
+- intl
+- apc
 - nginx with SF2 config
 - MySQL
   * Username: `root`
   * Password: empty
+- SQLite3
 - Git
 - PEAR
 - XDebug

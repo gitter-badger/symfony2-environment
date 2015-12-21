@@ -28,6 +28,7 @@
       doc_root: /var/www/web
       log_directory: /var/log/nginx/www
       server_name: application.dev
+      timezone: Europe/Moscow
       #
       # Watch ansible/roles/nginx/template for nginx config templates or add
       #
@@ -48,6 +49,8 @@
         - { name: mcrypt, package: php5-mcrypt }
         - { name: mysql, package: php5-mysql }
         - { name: sqlite, package: php5-sqlite }
+        - { name: apc, package: php-apc }
+        - { name: intl, package: php5-intl }
         #- { name: memcached, package: php5-memcached }
         #- { name: redis, package: php5-redis }
       #
