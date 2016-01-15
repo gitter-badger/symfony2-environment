@@ -1,5 +1,7 @@
 ###Enviroment using Vagrant and Ansible
 
+[![Join the chat at https://gitter.im/mb24dev/symfony2-environment](https://badges.gitter.im/mb24dev/symfony2-environment.svg)](https://gitter.im/mb24dev/symfony2-environment?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This project provides a virtual environment development using
 [Vagrant](https://www.vagrantup.com) and [Ansible](http://www.ansible.com).
 
